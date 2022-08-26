@@ -4,7 +4,8 @@ While the PSR framework allows for a larger spatial reuse, two fundamental chall
 * Devices taking advantage of a spatial reuse /SR opportunity must lower their transmit power to limit the interference generated. In some cases  this translates into a reduced throughput. In other cases  devices cannot even access spatial reuse opportunities as their maximum allowed transmit power is insufficient to reach their receive.  The  focus of this  DL  project  with  Torch and  PyTorch  is  to  simulate, study the effects of  ACI, CCI  on throughput.
 * Devices taking advantage of a spatial reuse opportunity are unaware—and have no control over—the interference perceived by their respective receivers  on Rx  side. This  would affect  effective  throughput  in some  HD  WLAN  RF  conditions.
 
-Kindly  refer  this  Publication for further  detailed  study   https://deepai.org/publication/ieee-802-11be-wi-fi-7-strikes-back
+Kindly  refer  these  Publications for further  detailed  study   https://deepai.org/publication/ieee-802-11be-wi-fi-7-strikes-back
+https://www.researchgate.net/publication/343546727_IEEE_80211be_Wi-Fi_7_Strikes_Back
 
 
 DL PROJECT  ENVIRONMENT:
