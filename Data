@@ -19,6 +19,9 @@ kindly collect the  data and  replace in this  folder in the  Folder  structure 
 ├── README.md
 └── LICENSE
 
+Test Folder should  have  input_node_files_test  and  output_simulator_test  folders  with  Data  files  downloaded from link: https://zenodo.org/record/4106127#.Ykxw3PexXmg
+Train folder should have  input_node_files  and output_simulator  folders with Data files 
+
 
 (IOT_DL) akram@ISHERIFF-M-RBNA MLP_OBSS_WIFI6 % ls -lh
 total 0
