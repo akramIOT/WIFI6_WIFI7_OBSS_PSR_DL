@@ -16,6 +16,8 @@ drwxr-xr-x  52 akram  staff   1.6K Aug 26 09:53 test scenario 4-10 APs
 (IOT_DL) akram@ISHERIFF-M-RBNA OUTPUT % 
 The  resulting thrughput is the  predicted ones from the  PyTorch based  DL technique. 
 
+MLP.ckpt  ===>  DL Trained model Binary (which contains  weights, Gradient, Different layers of the MLP Neural network) 
+
 (IOT_DL) akram@ISHERIFF-M-RBNA OUTPUT % cd test\ scenario\ 1-4\ APs 
 (IOT_DL) akram@ISHERIFF-M-RBNA test scenario 1-4 APs % ls -lh
 total 400
