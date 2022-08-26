@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Aug 26 13:20:39 2022
+DL based analysis  to derive data insights  for predicting the  Throughput  data for  different  sets of  count of  AP's, AP location, RSSI,floor plan map- distance
+SINR, Airtime of contention"  is the focus of this ML project with  Simulated  WIFI datasets. IOT WIFI6 or WIFI7 AP's would require very deterministic performance and this  DL based project is done to study the  Throughput results observed.
+@author: Akram Sheriff
+"""
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
