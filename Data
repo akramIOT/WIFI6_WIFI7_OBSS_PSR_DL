@@ -1,2 +1,103 @@
+Since the Input dataset is  Huge with multiple files, i have not  directly uploaded to  github repo
 
 The dataset used during in this project can be downloaded in the following link: https://zenodo.org/record/4106127#.Ykxw3PexXmg
+
+kindly collect the  data and  replace in this  folder in the  Folder  structure as below.
+
+
+├── MLP_OBSS_WIFI6/
+│   |
+│   └── Data/Test 
+│   |    |___/ Train 
+|   |
+│   └── Models/MLP_obss.py
+|   |
+|   |__ OUTPUT/
+│
+├── requirements.txt
+├── setup.py
+├── README.md
+└── LICENSE
+
+
+(IOT_DL) akram@ISHERIFF-M-RBNA MLP_OBSS_WIFI6 % ls -lh
+total 0
+drwxr-xr-x  4 akram  staff   128B Aug 25 14:50 Data
+drwxr-xr-x  4 akram  staff   128B Aug 26 10:02 Models
+drwxr-xr-x  7 akram  staff   224B Aug 25 18:10 OUTPUT
+(IOT_DL) akram@ISHERIFF-M-RBNA MLP_OBSS_WIFI6 % 
+(IOT_DL) akram@ISHERIFF-M-RBNA MLP_OBSS_WIFI6 % 
+
+(IOT_DL) akram@ISHERIFF-M-RBNA MLP_OBSS_WIFI6 % 
+(IOT_DL) akram@ISHERIFF-M-RBNA MLP_OBSS_WIFI6 % cd Data
+(IOT_DL) akram@ISHERIFF-M-RBNA Data % ls
+Test    Train
+(IOT_DL) akram@ISHERIFF-M-RBNA Data % cd Test 
+(IOT_DL) akram@ISHERIFF-M-RBNA Test % ls
+input_node_files_test   output_simulator_test
+(IOT_DL) akram@ISHERIFF-M-RBNA Test % 
+(IOT_DL) akram@ISHERIFF-M-RBNA Test % cd input_node_files_test 
+(IOT_DL) akram@ISHERIFF-M-RBNA input_node_files_test % ls -lh
+total 0
+drwxr-xr-x  52 akram  staff   1.6K Aug 25 13:46 test_1
+drwxr-xr-x  52 akram  staff   1.6K Aug 25 13:46 test_2
+drwxr-xr-x  52 akram  staff   1.6K Aug 25 13:46 test_3
+drwxr-xr-x  53 akram  staff   1.7K Aug 25 13:46 test_4
+(IOT_DL) akram@ISHERIFF-M-RBNA input_node_files_test %
+
+(IOT_DL) akram@ISHERIFF-M-RBNA input_node_files_test % cd test_1
+(IOT_DL) akram@ISHERIFF-M-RBNA test_1 % ls -lh
+total 400
+-rw-r--r--  1 akram  staff   2.3K Sep 28  2020 input_nodes_test_sce1_deployment_000.csv
+-rw-r--r--  1 akram  staff   2.7K Sep 28  2020 input_nodes_test_sce1_deployment_001.csv
+-rw-r--r--  1 akram  staff   2.9K Sep 28  2020 input_nodes_test_sce1_deployment_002.csv
+-rw-r--r--  1 akram  staff   2.5K Sep 28  2020 input_nodes_test_sce1_deployment_003.csv
+-rw-r--r--  1 akram  staff   1.6K Sep 28  2020 input_nodes_test_sce1_deployment_004.csv
+-rw-r--r--  1 akram  staff   3.1K Sep 28  2020 input_nodes_test_sce1_deployment_005.csv
+-rw-r--r--  1 akram  staff   3.4K Sep 28  2020 input_nodes_test_sce1_deployment_006.csv
+-rw-r--r--  1 akram  staff   2.4K Sep 28  2020 input_nodes_test_sce1_deployment_007.csv
+-rw-r--r--  1 akram  staff   3.0K Sep 28  2020 input_nodes_test_sce1_deployment_008.csv
+-rw-r--r--  1 akram  staff   2.2K Sep 28  2020 input_nodes_test_sce1_deployment_009.csv
+-rw-r--r--  1 akram  staff   3.4K Sep 28  2020 input_nodes_test_sce1_deployment_010.csv
+-rw-r--r--  1 akram  staff   2.1K Sep 28  2020 input_nodes_test_sce1_deployment_011.csv
+-rw-r--r--  1 akram  staff   3.4K Sep 28  2020 input_nodes_test_sce1_deployment_012.csv
+-rw-r--r--  1 akram  staff   2.4K Sep 28  2020 input_nodes_test_sce1_deployment_013.csv
+-rw-r--r--  1 akram  staff   3.2K Sep 28  2020 input_nodes_test_sce1_deployment_014.csv
+-rw-r--r--  1 akram  staff   3.0K Sep 28  2020 input_nodes_test_sce1_deployment_015.csv
+-rw-r--r--  1 akram  staff   1.9K Sep 28  2020 input_nodes_test_sce1_deployment_016.csv
+-rw-r--r--  1 akram  staff   2.5K Sep 28  2020 input_nodes_test_sce1_deployment_017.csv
+-rw-r--r--  1 akram  staff   2.5K Sep 28  2020 input_nodes_test_sce1_deployment_018.csv
+-rw-r--r--  1 akram  staff   3.0K Sep 28  2020 input_nodes_test_sce1_deployment_019.csv
+-rw-r--r--  1 akram  staff   3.0K Sep 28  2020 input_nodes_test_sce1_deployment_020.csv
+-rw-r--r--  1 akram  staff   3.8K Sep 28  2020 input_nodes_test_sce1_deployment_021.csv
+-rw-r--r--  1 akram  staff   2.1K Sep 28  2020 input_nodes_test_sce1_deployment_022.csv
+-rw-r--r--  1 akram  staff   2.7K Sep 28  2020 input_nodes_test_sce1_deployment_023.csv
+-rw-r--r--  1 akram  staff   2.6K Sep 28  2020 input_nodes_test_sce1_deployment_024.csv
+-rw-r--r--  1 akram  staff   2.8K Sep 28  2020 input_nodes_test_sce1_deployment_025.csv
+-rw-r--r--  1 akram  staff   3.1K Sep 28  2020 input_nodes_test_sce1_deployment_026.csv
+-rw-r--r--  1 akram  staff   2.0K Sep 28  2020 input_nodes_test_sce1_deployment_027.csv
+-rw-r--r--  1 akram  staff   2.1K Sep 28  2020 input_nodes_test_sce1_deployment_028.csv
+-rw-r--r--  1 akram  staff   2.8K Sep 28  2020 input_nodes_test_sce1_deployment_029.csv
+-rw-r--r--  1 akram  staff   3.1K Sep 28  2020 input_nodes_test_sce1_deployment_030.csv
+-rw-r--r--  1 akram  staff   2.8K Sep 28  2020 input_nodes_test_sce1_deployment_031.csv
+-rw-r--r--  1 akram  staff   2.4K Sep 28  2020 input_nodes_test_sce1_deployment_032.csv
+-rw-r--r--  1 akram  staff   3.1K Sep 28  2020 input_nodes_test_sce1_deployment_033.csv
+-rw-r--r--  1 akram  staff   2.8K Sep 28  2020 input_nodes_test_sce1_deployment_034.csv
+-rw-r--r--  1 akram  staff   2.8K Sep 28  2020 input_nodes_test_sce1_deployment_035.csv
+-rw-r--r--  1 akram  staff   2.8K Sep 28  2020 input_nodes_test_sce1_deployment_036.csv
+-rw-r--r--  1 akram  staff   2.5K Sep 28  2020 input_nodes_test_sce1_deployment_037.csv
+-rw-r--r--  1 akram  staff   2.0K Sep 28  2020 input_nodes_test_sce1_deployment_038.csv
+-rw-r--r--  1 akram  staff   3.1K Sep 28  2020 input_nodes_test_sce1_deployment_039.csv
+-rw-r--r--  1 akram  staff   2.7K Sep 28  2020 input_nodes_test_sce1_deployment_040.csv
+-rw-r--r--  1 akram  staff   2.0K Sep 28  2020 input_nodes_test_sce1_deployment_041.csv
+-rw-r--r--  1 akram  staff   3.1K Sep 28  2020 input_nodes_test_sce1_deployment_042.csv
+-rw-r--r--  1 akram  staff   3.2K Sep 28  2020 input_nodes_test_sce1_deployment_043.csv
+-rw-r--r--  1 akram  staff   1.8K Sep 28  2020 input_nodes_test_sce1_deployment_044.csv
+-rw-r--r--  1 akram  staff   2.6K Sep 28  2020 input_nodes_test_sce1_deployment_045.csv
+-rw-r--r--  1 akram  staff   2.6K Sep 28  2020 input_nodes_test_sce1_deployment_046.csv
+-rw-r--r--  1 akram  staff   2.7K Sep 28  2020 input_nodes_test_sce1_deployment_047.csv
+-rw-r--r--  1 akram  staff   2.5K Sep 28  2020 input_nodes_test_sce1_deployment_048.csv
+-rw-r--r--  1 akram  staff   2.6K Sep 28  2020 input_nodes_test_sce1_deployment_049.csv
+(IOT_DL) akram@ISHERIFF-M-RBNA test_1 % 
+
+
