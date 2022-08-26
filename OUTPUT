@@ -1,0 +1,72 @@
+The OUTPUT  Folder  should  have  different  test folders as fllows 
+
+test scenario 1-4 AP's
+test scenario 2-6 APs
+test scenario 3-8 APs
+test scenario 4-10 APs
+
+(IOT_DL) akram@ISHERIFF-M-RBNA MLP_OBSS_WIFI6 % cd OUTPUT 
+(IOT_DL) akram@ISHERIFF-M-RBNA OUTPUT % ls -lh
+total 16
+-rw-r--r--   1 akram  staff   7.8K Aug 26 09:53 MLP.ckpt
+drwxr-xr-x  52 akram  staff   1.6K Aug 26 09:53 test scenario 1-4 APs
+drwxr-xr-x  52 akram  staff   1.6K Aug 26 09:53 test scenario 2-6 APs
+drwxr-xr-x  52 akram  staff   1.6K Aug 26 09:53 test scenario 3-8 APs
+drwxr-xr-x  52 akram  staff   1.6K Aug 26 09:53 test scenario 4-10 APs
+(IOT_DL) akram@ISHERIFF-M-RBNA OUTPUT % 
+The  resulting thrughput is the  predicted ones from the  PyTorch based  DL technique. 
+
+(IOT_DL) akram@ISHERIFF-M-RBNA OUTPUT % cd test\ scenario\ 1-4\ APs 
+(IOT_DL) akram@ISHERIFF-M-RBNA test scenario 1-4 APs % ls -lh
+total 400
+-rw-r--r--  1 akram  staff    27B Aug 26 09:53 throughput_1.csv
+-rw-r--r--  1 akram  staff    28B Aug 26 09:53 throughput_10.csv
+-rw-r--r--  1 akram  staff    27B Aug 26 09:53 throughput_11.csv
+-rw-r--r--  1 akram  staff    26B Aug 26 09:53 throughput_12.csv
+-rw-r--r--  1 akram  staff    28B Aug 26 09:53 throughput_13.csv
+-rw-r--r--  1 akram  staff    27B Aug 26 09:53 throughput_14.csv
+-rw-r--r--  1 akram  staff    26B Aug 26 09:53 throughput_15.csv
+-rw-r--r--  1 akram  staff    26B Aug 26 09:53 throughput_16.csv
+-rw-r--r--  1 akram  staff    27B Aug 26 09:53 throughput_17.csv
+-rw-r--r--  1 akram  staff    27B Aug 26 09:53 throughput_18.csv
+-rw-r--r--  1 akram  staff    27B Aug 26 09:53 throughput_19.csv
+-rw-r--r--  1 akram  staff    27B Aug 26 09:53 throughput_2.csv
+-rw-r--r--  1 akram  staff    26B Aug 26 09:53 throughput_20.csv
+-rw-r--r--  1 akram  staff    27B Aug 26 09:53 throughput_21.csv
+-rw-r--r--  1 akram  staff    26B Aug 26 09:53 throughput_22.csv
+-rw-r--r--  1 akram  staff    26B Aug 26 09:53 throughput_23.csv
+-rw-r--r--  1 akram  staff    27B Aug 26 09:53 throughput_24.csv
+-rw-r--r--  1 akram  staff    27B Aug 26 09:53 throughput_25.csv
+-rw-r--r--  1 akram  staff    28B Aug 26 09:53 throughput_26.csv
+-rw-r--r--  1 akram  staff    25B Aug 26 09:53 throughput_27.csv
+-rw-r--r--  1 akram  staff    27B Aug 26 09:53 throughput_28.csv
+-rw-r--r--  1 akram  staff    25B Aug 26 09:53 throughput_29.csv
+-rw-r--r--  1 akram  staff    28B Aug 26 09:53 throughput_3.csv
+-rw-r--r--  1 akram  staff    27B Aug 26 09:53 throughput_30.csv
+-rw-r--r--  1 akram  staff    25B Aug 26 09:53 throughput_31.csv
+-rw-r--r--  1 akram  staff    26B Aug 26 09:53 throughput_32.csv
+-rw-r--r--  1 akram  staff    26B Aug 26 09:53 throughput_33.csv
+-rw-r--r--  1 akram  staff    26B Aug 26 09:53 throughput_34.csv
+-rw-r--r--  1 akram  staff    27B Aug 26 09:53 throughput_35.csv
+-rw-r--r--  1 akram  staff    27B Aug 26 09:53 throughput_36.csv
+-rw-r--r--  1 akram  staff    27B Aug 26 09:53 throughput_37.csv
+-rw-r--r--  1 akram  staff    25B Aug 26 09:53 throughput_38.csv
+-rw-r--r--  1 akram  staff    27B Aug 26 09:53 throughput_39.csv
+-rw-r--r--  1 akram  staff    26B Aug 26 09:53 throughput_4.csv
+-rw-r--r--  1 akram  staff    27B Aug 26 09:53 throughput_40.csv
+-rw-r--r--  1 akram  staff    28B Aug 26 09:53 throughput_41.csv
+-rw-r--r--  1 akram  staff    26B Aug 26 09:53 throughput_42.csv
+-rw-r--r--  1 akram  staff    26B Aug 26 09:53 throughput_43.csv
+-rw-r--r--  1 akram  staff    27B Aug 26 09:53 throughput_44.csv
+-rw-r--r--  1 akram  staff    25B Aug 26 09:53 throughput_45.csv
+-rw-r--r--  1 akram  staff    25B Aug 26 09:53 throughput_46.csv
+-rw-r--r--  1 akram  staff    27B Aug 26 09:53 throughput_47.csv
+-rw-r--r--  1 akram  staff    27B Aug 26 09:53 throughput_48.csv
+-rw-r--r--  1 akram  staff    26B Aug 26 09:53 throughput_49.csv
+-rw-r--r--  1 akram  staff    26B Aug 26 09:53 throughput_5.csv
+-rw-r--r--  1 akram  staff    27B Aug 26 09:53 throughput_50.csv
+-rw-r--r--  1 akram  staff    26B Aug 26 09:53 throughput_6.csv
+-rw-r--r--  1 akram  staff    26B Aug 26 09:53 throughput_7.csv
+-rw-r--r--  1 akram  staff    28B Aug 26 09:53 throughput_8.csv
+-rw-r--r--  1 akram  staff    27B Aug 26 09:53 throughput_9.csv
+(IOT_DL) akram@ISHERIFF-M-RBNA test scenario 1-4 APs % 
