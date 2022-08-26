@@ -6,6 +6,7 @@ While the PSR framework allows for a larger spatial reuse, two fundamental chall
 
 Kindly  refer  these  Publications for further  detailed  study   https://deepai.org/publication/ieee-802-11be-wi-fi-7-strikes-back
 https://www.researchgate.net/publication/343546727_IEEE_80211be_Wi-Fi_7_Strikes_Back
+https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9194746
 
 
 DL PROJECT  ENVIRONMENT:
