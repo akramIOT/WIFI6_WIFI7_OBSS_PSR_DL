@@ -11,6 +11,7 @@ Kindly  refer  these  Publications for further  detailed  study   https://deepai
 https://www.researchgate.net/publication/343546727_IEEE_80211be_Wi-Fi_7_Strikes_Back
 https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9194746
 
+Kindly also  refer this Project  by  ITU AI/ML Challenge https://github.com/ITU-AI-ML-in-5G-Challenge/ITU-ML5G-PS-013-ATARI  
 
 DL PROJECT  ENVIRONMENT:
 ========================
