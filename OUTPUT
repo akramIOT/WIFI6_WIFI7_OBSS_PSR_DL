@@ -1,4 +1,6 @@
-The OUTPUT  Folder  should  have  different  test folders as fllows 
+The OUTPUT  Folder  should  have  different  test folders as f0llows and it  store the MLP state after training & the different output )(.csv files) of 
+the Test scenarios.
+
 
 test scenario 1-4 AP's
 test scenario 2-6 APs
